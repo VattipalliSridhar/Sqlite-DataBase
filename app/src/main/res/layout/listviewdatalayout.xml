@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:gravity="center" >
+
+            <ImageView
+                android:id="@+id/empimgview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:weightSum="1"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:gravity="center" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="0.25"
+                android:weightSum="0.25"
+                 >
+            	
+                 <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                    android:layout_weight="0.125"
+                >
+                    <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Eid: "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+        			android:textColor="#050505" /> 
+                 </LinearLayout>
+
+                 <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                    android:layout_weight="0.125"
+                >
+
+                <TextView
+                    android:id="@+id/textViewID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Large Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+        			android:textColor="#050505"/>
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="0.25"
+                android:weightSum="0.25">
+                 
+                <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                    android:layout_weight="0.125"
+                >
+                
+                  <TextView
+                    android:id="@+id/textView2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EName: "
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+        			android:textColor="#050505" />
+                  </LinearLayout>
+                  
+                 <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                    android:layout_weight="0.125"
+                >
+
+                <TextView
+                    android:id="@+id/textViewNAME"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Large Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+        			android:textColor="#050505"/>
+                </LinearLayout>
+                
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="0.25"
+                android:weightSum="0.25" >
+                 
+                 <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                    android:layout_weight="0.125"
+                >
+                
+                     <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EContact: "
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+        			android:textColor="#050505" />
+                                
+                                </LinearLayout>
+                                
+                  <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+               android:layout_gravity="center_vertical"
+                    android:layout_weight="0.125"
+                >
+
+                <TextView
+                    android:id="@+id/textViewPHONE_NUMBER"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Large Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+        			android:textColor="#050505"/>
+                </LinearLayout>
+            </LinearLayout>
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_weight="0.25"
+                android:weightSum="0.25" >
+                
+                 <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                    android:layout_weight="0.125"
+                >
+                                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="EAdress: "
+                    android:singleLine="true"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+        			android:textColor="#050505" />
+                               
+                              
+                               </LinearLayout>
+                               
+                  <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                    android:layout_weight="0.125"
+                >
+
+                <TextView
+                    android:id="@+id/textViewaddress"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Large Text"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+        			android:textColor="#050505"/>
+                
+                </LinearLayout>
+                
+            </LinearLayout>
+            
+        </LinearLayout>
+       <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:layout_gravity="center"
+            android:gravity="center" >
+
+           <Button
+               android:id="@+id/optionbutton"
+               style="?android:attr/buttonStyleSmall"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:background="@drawable/overflow"/>
+    
+    </RelativeLayout>  
+        
+        
+    </LinearLayout>
+
+</RelativeLayout>
